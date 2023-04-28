@@ -1,0 +1,59 @@
+﻿@model BlogPl.Models.BlogWithCommentsViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<html>
+<head>
+    <style>
+        .underline {
+            width: 60px;
+            height: 4px;
+            border-radius: 10px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            background: #0d6efd;
+        }
+        .comment-box {
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>@Model.Blog.title Details <div class="underline"></div></h2>
+        <p>@Model.Blog.description</p>
+        <p>By<a>#@Model.Blog.owner</a></p>
+        <h4 style="margin-top:50px;">Comments/Replies <div class="underline"></div></h4>
+        <div>
+            @if (Model.Comments.Any())
+            {
+                <div>
+                    @foreach (var comment in Model.Comments)
+                    {
+                        <div class="comment-box">
+                            <p><a>#@comment.created_by</a></p>
+                            <p>@comment.description</p>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <p>No comment or replies on <a>@Model.Blog.title</a></p>
+            }
+
+        </div>
+        <p style="margin-top:30px;">
+            @*@Html.ActionLink("Edit", "Edit", new { id = Model.Blog.id }) |*@
+            @Html.ActionLink("Back to List", "Index")
+        </p>
+
+
+    </div>
+</body>
+</html>

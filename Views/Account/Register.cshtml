@@ -1,0 +1,75 @@
+﻿<html>
+<head>
+    <style>
+        #loginForm {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .card {
+            border: 1px solid #808080;
+            padding: 10px 20px 10px 40px;
+            border-radius: 10px;
+            width:fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        @model BlogPl.Models.RegisterViewModel
+        @{
+            ViewBag.Title = "Register";
+        }
+
+        <h2 class="text-center">@ViewBag.Title.</h2>
+
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            <h4 class="text-center">Create a new account.</h4>
+            <hr />
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div id="loginForm">
+        <div class="card">
+            <div class="form-group">
+                @*@Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })*@
+                <div class="col-md-10">
+                    <label>Email</label>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @*@Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })*@
+                <div class="col-md-10">
+                    <label>Password</label>
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @*@Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })*@
+                <div class="col-md-10">
+                    <label>Confirm Paswword</label>
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 ">
+                    <input type="submit" class="btn btn-primary" value="Register" />
+                </div>
+            </div>
+            <p>
+                @Html.ActionLink("Login to your account", "Login")
+            </p>
+        </div>
+    </div>
+        }
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</body>
+</html>

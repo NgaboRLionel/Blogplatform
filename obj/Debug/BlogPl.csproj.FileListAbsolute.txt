@@ -1,0 +1,332 @@
+F:\Auca\dot net\programs\BlogPl\bin\BlogPl.dll.config
+F:\Auca\dot net\programs\BlogPl\bin\BlogPl.dll
+F:\Auca\dot net\programs\BlogPl\bin\BlogPl.pdb
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\csc.exe
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\csc.exe.config
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\csc.rsp
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\csi.exe
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\csi.exe.config
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\csi.rsp
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.AppContext.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Collections.Immutable.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Console.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Globalization.Calendars.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.IO.Compression.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.IO.FileSystem.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Net.Http.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Net.Sockets.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Reflection.Metadata.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.ValueTuple.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Xml.XPath.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\vbc.exe
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\vbc.exe.config
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\vbc.rsp
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\VBCSCompiler.exe
+F:\Auca\dot net\programs\BlogPl\bin\roslyn\VBCSCompiler.exe.config
+F:\Auca\dot net\programs\BlogPl\bin\Antlr3.Runtime.dll
+F:\Auca\dot net\programs\BlogPl\bin\EntityFramework.dll
+F:\Auca\dot net\programs\BlogPl\bin\EntityFramework.SqlServer.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Google.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Web.Infrastructure.dll
+F:\Auca\dot net\programs\BlogPl\bin\Newtonsoft.Json.dll
+F:\Auca\dot net\programs\BlogPl\bin\Owin.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Helpers.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Mvc.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Optimization.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Razor.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.WebPages.Deployment.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.WebPages.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.WebPages.Razor.dll
+F:\Auca\dot net\programs\BlogPl\bin\WebGrease.dll
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Helpers.xml
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Mvc.xml
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Optimization.xml
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.Razor.xml
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.WebPages.xml
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.WebPages.Deployment.xml
+F:\Auca\dot net\programs\BlogPl\bin\System.Web.WebPages.Razor.xml
+F:\Auca\dot net\programs\BlogPl\bin\Newtonsoft.Json.xml
+F:\Auca\dot net\programs\BlogPl\bin\Antlr3.Runtime.pdb
+F:\Auca\dot net\programs\BlogPl\bin\EntityFramework.xml
+F:\Auca\dot net\programs\BlogPl\bin\EntityFramework.SqlServer.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Google.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Auca\dot net\programs\BlogPl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Auca\dot net\programs\BlogPl\obj\Debug\BlogPl.csproj.AssemblyReference.cache
+F:\Auca\dot net\programs\BlogPl\obj\Debug\BlogPl.csproj.CoreCompileInputs.cache
+F:\Auca\dot net\programs\BlogPl\obj\Debug\BlogPl.csproj.CopyComplete
+F:\Auca\dot net\programs\BlogPl\obj\Debug\BlogPl.dll
+F:\Auca\dot net\programs\BlogPl\obj\Debug\BlogPl.pdb
+F:\Auca\dot net\programs\testblog\BlogPl\bin\BlogPl.dll.config
+F:\Auca\dot net\programs\testblog\BlogPl\bin\BlogPl.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\BlogPl.pdb
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\csc.exe
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\csc.exe.config
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\csc.rsp
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\csi.exe
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\csi.exe.config
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\csi.rsp
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.AppContext.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Collections.Immutable.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Console.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Globalization.Calendars.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.IO.Compression.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.IO.FileSystem.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Net.Http.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Net.Sockets.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Reflection.Metadata.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.ValueTuple.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Xml.XPath.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\vbc.exe
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\vbc.exe.config
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\vbc.rsp
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\VBCSCompiler.exe
+F:\Auca\dot net\programs\testblog\BlogPl\bin\roslyn\VBCSCompiler.exe.config
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Antlr3.Runtime.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\EntityFramework.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\EntityFramework.SqlServer.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Google.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Web.Infrastructure.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Newtonsoft.Json.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Owin.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Helpers.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Mvc.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Optimization.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Razor.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.WebPages.Deployment.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.WebPages.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.WebPages.Razor.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\WebGrease.dll
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Helpers.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Mvc.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Optimization.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.Razor.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.WebPages.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.WebPages.Deployment.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\System.Web.WebPages.Razor.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Newtonsoft.Json.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Antlr3.Runtime.pdb
+F:\Auca\dot net\programs\testblog\BlogPl\bin\EntityFramework.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\EntityFramework.SqlServer.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Google.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Auca\dot net\programs\testblog\BlogPl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.csproj.AssemblyReference.cache
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.csproj.CoreCompileInputs.cache
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.csproj.CopyComplete
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.dll
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.pdb
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.Migrations.InitialCreate.resources
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.csproj.GenerateResource.cache
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.Migrations.FixDbContext.resources
+F:\Auca\dot net\programs\testblog\BlogPl\obj\Debug\BlogPl.Migrations.AddImages.resources
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\BlogPl.dll.config
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\BlogPl.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\BlogPl.pdb
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\csc.exe
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\csc.exe.config
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\csc.rsp
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\csi.exe
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\csi.exe.config
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\csi.rsp
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.AppContext.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Collections.Immutable.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Console.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Globalization.Calendars.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.IO.Compression.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.IO.FileSystem.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Net.Http.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Net.Sockets.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Reflection.Metadata.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.ValueTuple.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Xml.XPath.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\vbc.exe
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\vbc.exe.config
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\vbc.rsp
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\VBCSCompiler.exe
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\roslyn\VBCSCompiler.exe.config
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Antlr3.Runtime.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\EntityFramework.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\EntityFramework.SqlServer.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Google.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Web.Infrastructure.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Newtonsoft.Json.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Owin.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Helpers.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Mvc.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Optimization.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Razor.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.WebPages.Deployment.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.WebPages.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.WebPages.Razor.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\WebGrease.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Helpers.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Mvc.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Optimization.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.Razor.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.WebPages.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.WebPages.Deployment.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\System.Web.WebPages.Razor.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Newtonsoft.Json.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Antlr3.Runtime.pdb
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\EntityFramework.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\EntityFramework.SqlServer.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Google.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.csproj.AssemblyReference.cache
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.Migrations.InitialCreate.resources
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.Migrations.FixDbContext.resources
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.Migrations.AddImages.resources
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.csproj.GenerateResource.cache
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.csproj.CoreCompileInputs.cache
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.csproj.CopyComplete
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.dll
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.pdb

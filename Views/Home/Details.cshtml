@@ -1,0 +1,91 @@
+﻿@model BlogPl.Models.BlogWithCommentsViewModel
+
+
+@{
+    ViewBag.Title = "Details";
+}
+<html>
+<head>
+    <style>
+        .underline {
+            width: 60px;
+            height: 4px;
+            border-radius: 10px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            background: #0d6efd;
+        }
+        .comment-box {
+            background: #e9ecef;
+            padding:10px;
+            border-radius:10px;
+            margin-bottom:10px;
+        }
+        .form-control {
+            min-width:97.5%;
+        }
+        /*.jumbotron {
+            background:url("/Images/bunner.jpg");
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="text-center">
+                <h3><span>@Model.Blog.title</span> / <a href="/">Home</a></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>@Model.Blog.title <div class="underline"></div></h1>
+        <p>@Model.Blog.description</p>
+        <p>By <a>#@Model.Blog.owner</a></p>
+        <h3>Comments/Replies <div class="underline"></div></h3>
+        @if (Model.Comments.Any())
+        {
+            <div>
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="comment-box">
+                        <p><a>#@comment.created_by</a></p>
+                        <p>@comment.description</p>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p>No comment or replies on <a>@Model.Blog.title</a></p>
+        }
+        <p style="margin-top:20px"></p>
+        <div class="create-comment container">
+            @using (Html.BeginForm("Create", "Comments", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                // form elements go here
+                <input type="hidden" name="blog_id" value="@Model.Blog.id" id="blogId" />
+                <div class="form-group">
+                    <label for="">Your Name or Email</label>
+                    <input class="form-control btn-block" required  name="created_by" id="" />
+                </div>
+                <div class="form-group">
+                    <label for="exampleTextarea">Your Comment or Reply</label>
+                    <textarea class="form-control btn-block" required name="description" id="exampleTextarea" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="">
+                        <button type="submit" class="btn btn-primary">Submit Your Comment/Reply</button>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</body>
+</html>
+
