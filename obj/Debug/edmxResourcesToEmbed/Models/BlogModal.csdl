@@ -9,6 +9,7 @@
     <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="owner" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="images" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="imagesUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Comment">
     <Key>

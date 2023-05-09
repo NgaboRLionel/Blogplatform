@@ -25,6 +25,14 @@
                 margin-bottom:20px;
                 
             }
+        .underline {
+            width: 90px;
+            height: 3px;
+            border-radius: 10px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            background: #0d6efd;
+        }
     </style>
 </head>
 @using Microsoft.AspNet.Identity
@@ -47,7 +55,7 @@
                     @using Microsoft.AspNet.Identity
                     @if (Request.IsAuthenticated)
                     {
-                        <li>@Html.ActionLink("Blogs", "Index", "Blogs")</li>
+                        <li>@Html.ActionLink("My Blogs", "Index", "Blogs")</li>
                     }
                 </ul>
                 @Html.Partial("_LoginPartial")
@@ -61,13 +69,13 @@
             <div class="container">
                 <div class="row container">
                     <div class="col-md-4">
-                        <h3>Blog Platform</h3>
+                        <h3>Blog Platform<div class="underline"></div></h3>
                         <p>
                             Overall, our blog platform provides a simple and convenient way for anyone to share their ideas, opinions, and expertise with the world through blogging.
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <h3>Quick Links</h3>
+                        <h3>Quick Links <div class="underline"></div></h3>
                         <p class="">
                     <span>@Html.ActionLink("Home", "Index", "Home")</span>
                             <br />
@@ -81,17 +89,17 @@
                     @using Microsoft.AspNet.Identity
                     @if (Request.IsAuthenticated)
                     {
-                        <span>@Html.ActionLink("Blogs", "Index", "Blogs")</span>
+                        <span>@Html.ActionLink("My Blogs", "Index", "Blogs")</span>
                     }
                 </p>
                     </div>
                     <div class="col-md-4">
-                        <h3>Team Members</h3>
+                        <h3>Team Members <div class="underline"></div></h3>
                         <p>Ganza Ntambuko Sanchess 23584</p>
                         <p>Twahirwa Mandela 23995</p>
                         <p>Umurerwa Daniella 23685</p>
                         <p>Umurerwa Justine 23817</p>
-                        <p>Ishimwe Immacule ?????</p>
+                        <p>Ishimwe Immacule 23970</p>
                     </div>
                 </div>
                 <hr />

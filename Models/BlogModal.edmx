@@ -14,6 +14,7 @@
           <Property Name="description" Type="nvarchar(max)" Nullable="false" />
           <Property Name="owner" Type="nvarchar(max)" Nullable="false" />
           <Property Name="images" Type="image" />
+          <Property Name="imagesUrl" Type="nvarchar(max)" />
         </EntityType>
         <EntityType Name="Comments">
           <Key>
@@ -52,6 +53,7 @@
           <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="owner" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="images" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="imagesUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Comment">
           <Key>
@@ -86,6 +88,7 @@
           <EntitySetMapping Name="Blogs">
             <EntityTypeMapping TypeName="Blogging2Model1.Blog">
               <MappingFragment StoreEntitySet="Blogs">
+                <ScalarProperty Name="imagesUrl" ColumnName="imagesUrl" />
                 <ScalarProperty Name="images" ColumnName="images" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="title" ColumnName="title" />

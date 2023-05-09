@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Blogs">
       <EntityTypeMapping TypeName="Blogging2Model1.Blog">
         <MappingFragment StoreEntitySet="Blogs">
+          <ScalarProperty Name="imagesUrl" ColumnName="imagesUrl" />
           <ScalarProperty Name="images" ColumnName="images" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="title" ColumnName="title" />

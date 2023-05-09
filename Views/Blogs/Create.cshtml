@@ -38,6 +38,23 @@
                 @Html.ValidationMessageFor(model => model.owner, "", new { @class = "text-danger" })
             </div>
         </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Image URLs</label>
+            <div class="col-md-10">
+                <div id="imageUrls-container">
+                    @if (Model.imageUrls != null)
+                    {
+                        for (int i = 0; i < Model.imageUrls.Count; i++)
+                        {
+                            <input type="text" name="imageUrls[]" class="form-control" value="@Model.imageUrls[i]" />
+                        }
+                    }
+                    <input type="text" name="imageUrls[]" class="form-control" />
+                    <button type="button" id="add-imageUrl" class="btn btn-default">Add</button>
+                </div>
+            </div>
+        </div>
+
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">

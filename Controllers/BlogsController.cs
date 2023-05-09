@@ -65,7 +65,7 @@ namespace BlogPl.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "id,title,description,owner")] Blog blog)
+        public async Task<ActionResult> Create([Bind(Include = "id,title,description,owner,imageUrls")] Blog blog)
         {
             if (ModelState.IsValid)
             {
@@ -122,7 +122,7 @@ namespace BlogPl.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([Bind(Include = "id,title,description,owner")] Blog blog)
+        public async Task<ActionResult> Edit([Bind(Include = "id,title,description,owner,imagesUrl")] Blog blog)
         {
             if (ModelState.IsValid)
             {

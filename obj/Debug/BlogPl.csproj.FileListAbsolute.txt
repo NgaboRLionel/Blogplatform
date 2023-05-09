@@ -330,3 +330,5 @@ F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.csproj.CoreCompil
 F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.csproj.CopyComplete
 F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.dll
 F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.pdb
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.Migrations.AddImageUrlsToBlog.resources
+F:\Auca\dot net\programs\Blog Platform\BlogPl\obj\Debug\BlogPl.Migrations.AddImagesUrlToBlog.resources

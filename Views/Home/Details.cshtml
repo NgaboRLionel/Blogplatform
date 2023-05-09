@@ -24,6 +24,20 @@
         .form-control {
             min-width:97.5%;
         }
+        .img-container {
+            margin-top:-29px;
+        }
+        .img-box {
+            display: flex;
+            width: 350px;
+            height: 200px;
+        }
+
+            .img-box img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         /*.jumbotron {
             background:url("/Images/bunner.jpg");
             background-position:center;
@@ -40,11 +54,35 @@
             </div>
         </div>
     </div>
+    <div class="img-container">
 
+        @{
+            // Get the string value from the model
+            string imageUrlsString = Model.Blog.imagesUrl;
+
+            // Split the string into a list of image URLs
+            List<string> imageUrlsList = new List<string>();
+            if (!string.IsNullOrEmpty(imageUrlsString))
+            {
+                imageUrlsList = imageUrlsString.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            }
+        }
+
+        @if (imageUrlsList.Any())
+        {
+            <div class="img-box">
+                @foreach (string url in imageUrlsList)
+                {
+                    <img class="" src="@url" alt="image" />
+                }
+            </div>
+        }
+    </div>
     <div class="container">
         <h1>@Model.Blog.title <div class="underline"></div></h1>
         <p>@Model.Blog.description</p>
         <p>By <a>#@Model.Blog.owner</a></p>
+
         <h3>Comments/Replies <div class="underline"></div></h3>
         @if (Model.Comments.Any())
         {
@@ -71,7 +109,7 @@
                 <input type="hidden" name="blog_id" value="@Model.Blog.id" id="blogId" />
                 <div class="form-group">
                     <label for="">Your Name or Email</label>
-                    <input class="form-control btn-block" required  name="created_by" id="" />
+                    <input class="form-control btn-block" required name="created_by" id="" />
                 </div>
                 <div class="form-group">
                     <label for="exampleTextarea">Your Comment or Reply</label>

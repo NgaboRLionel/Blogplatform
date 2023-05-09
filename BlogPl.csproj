@@ -190,6 +190,14 @@
     <Compile Include="Migrations\202304281117307_AddImages.designer.cs">
       <DependentUpon>202304281117307_AddImages.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305090716151_AddImageUrlsToBlog.cs" />
+    <Compile Include="Migrations\202305090716151_AddImageUrlsToBlog.designer.cs">
+      <DependentUpon>202305090716151_AddImageUrlsToBlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305091254595_AddImagesUrlToBlog.cs" />
+    <Compile Include="Migrations\202305091254595_AddImagesUrlToBlog.designer.cs">
+      <DependentUpon>202305091254595_AddImagesUrlToBlog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Blog.cs">
@@ -353,6 +361,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304281117307_AddImages.resx">
       <DependentUpon>202304281117307_AddImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305090716151_AddImageUrlsToBlog.resx">
+      <DependentUpon>202305090716151_AddImageUrlsToBlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305091254595_AddImagesUrlToBlog.resx">
+      <DependentUpon>202305091254595_AddImagesUrlToBlog.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

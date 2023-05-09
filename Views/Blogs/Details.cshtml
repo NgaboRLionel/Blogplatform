@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="margin-top:50px;">
         <h2>@Model.Blog.title Details <div class="underline"></div></h2>
         <p>@Model.Blog.description</p>
         <p>By<a>#@Model.Blog.owner</a></p>
@@ -36,7 +36,7 @@
                     @foreach (var comment in Model.Comments)
                     {
                         <div class="comment-box">
-                            <p><a>#@comment.created_by</a></p>
+                            <p><a>By #@comment.created_by</a></p>
                             <p>@comment.description</p>
                         </div>
                     }

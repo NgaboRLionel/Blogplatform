@@ -9,6 +9,7 @@
     <Property Name="description" Type="nvarchar(max)" Nullable="false" />
     <Property Name="owner" Type="nvarchar(max)" Nullable="false" />
     <Property Name="images" Type="image" />
+    <Property Name="imagesUrl" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="Comments">
     <Key>

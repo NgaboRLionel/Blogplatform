@@ -19,5 +19,6 @@ namespace BlogPl.Models
         public string description { get; set; }
         public string owner { get; set; }
         public byte[] images { get; set; }
+        public string imagesUrl { get; set; }
     }
 }
