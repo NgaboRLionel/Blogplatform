@@ -56,11 +56,11 @@
                                     <input type="hidden" class="form-control" name="owner" id="" value="@User.Identity.Name" />
                                     <div class="form-group">
                                         <label for="exampleTextarea">Title</label>
-                                        <input class="form-control" required name="title" id="" />
+                                        <input class="form-control" required name="title" placeholder="blog title" id="" />
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleTextarea">Description</label>
-                                        <textarea class="form-control" required name="description" id="" rows="3"></textarea>
+                                        <textarea class="form-control" required name="description" placeholder="blog description" id="" rows="3"></textarea>
                                     </div>
 
                                     <div class="form-group">
@@ -198,11 +198,14 @@
                                 @Html.DisplayNameFor(model => model.description)
                             </th>
                             <th>
+                                @Html.DisplayNameFor(model => model.imagesUrl)
+                            </th>
+                            <th>
                                 @Html.DisplayNameFor(model => model.owner)
                             </th>
                             @*<th>
-                                    @Html.DisplayNameFor(model => model.images)
-                                </th>*@
+            @Html.DisplayNameFor(model => model.images)
+        </th>*@
                             <th>Actions</th>
                         </tr>
                         @{int counter = 1;}
@@ -218,6 +221,25 @@
                                     @if (!string.IsNullOrEmpty(item.description))
                                     {
                                         @(item.description.Length > 90 ? item.description.Substring(0, 90) + " ..." : item.description)
+                                    }
+                                </td>
+                                <td>
+                                    @{
+                                        // Get the string value from the model
+                                        string imageUrlsString = item.imagesUrl;
+
+                                        // Split the string into a list of image URLs
+                                        List<string> imageUrlsList = new List<string>();
+                                        if (!string.IsNullOrEmpty(imageUrlsString))
+                                        {
+                                            imageUrlsList = imageUrlsString.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                                        }
+                                    }
+                                    @if (imageUrlsList.Any())
+                                    {
+                                        <div >
+                                            @imageUrlsList.Count()
+                                        </div>
                                     }
                                 </td>
                                 <td>

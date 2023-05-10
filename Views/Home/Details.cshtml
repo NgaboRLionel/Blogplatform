@@ -6,44 +6,9 @@
 }
 <html>
 <head>
+    <link href="~/Content/Global.css" rel="stylesheet" />
     <style>
-        .underline {
-            width: 60px;
-            height: 4px;
-            border-radius: 10px;
-            margin-top: 5px;
-            margin-bottom: 30px;
-            background: #0d6efd;
-        }
-        .comment-box {
-            background: #e9ecef;
-            padding:10px;
-            border-radius:10px;
-            margin-bottom:10px;
-        }
-        .form-control {
-            min-width:97.5%;
-        }
-        .img-container {
-            margin-top:-29px;
-        }
-        .img-box {
-            display: flex;
-            width: 350px;
-            height: 200px;
-        }
-
-            .img-box img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        /*.jumbotron {
-            background:url("/Images/bunner.jpg");
-            background-position:center;
-            background-repeat:no-repeat;
-            background-size:cover;
-        }*/
+       
     </style>
 </head>
 <body>
@@ -54,76 +19,89 @@
             </div>
         </div>
     </div>
-    <div class="img-container">
+   
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="height:fit-content !important">
+                    <div class="new-row" style="height:fit-content !important">
 
-        @{
-            // Get the string value from the model
-            string imageUrlsString = Model.Blog.imagesUrl;
+                        @{
+                            // Get the string value from the model
+                            string NewimageUrlsString = Model.Blog.imagesUrl;
 
-            // Split the string into a list of image URLs
-            List<string> imageUrlsList = new List<string>();
-            if (!string.IsNullOrEmpty(imageUrlsString))
-            {
-                imageUrlsList = imageUrlsString.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-            }
-        }
+                            // Split the string into a list of image URLs
+                            List<string> NewimageUrlsList = new List<string>();
+                            if (!string.IsNullOrEmpty(NewimageUrlsString))
+                            {
+                                NewimageUrlsList = NewimageUrlsString.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                            }
+                        }
 
-        @if (imageUrlsList.Any())
-        {
-            <div class="img-box">
-                @foreach (string url in imageUrlsList)
-                {
-                    <img class="" src="@url" alt="image" />
-                }
-            </div>
-        }
-    </div>
-    <div class="container">
-        <h1>@Model.Blog.title <div class="underline"></div></h1>
-        <p>@Model.Blog.description</p>
-        <p>By <a>#@Model.Blog.owner</a></p>
-
-        <h3>Comments/Replies <div class="underline"></div></h3>
-        @if (Model.Comments.Any())
-        {
-            <div>
-                @foreach (var comment in Model.Comments)
-                {
-                    <div class="comment-box">
-                        <p><a>#@comment.created_by</a></p>
-                        <p>@comment.description</p>
-                    </div>
-                }
-            </div>
-        }
-        else
-        {
-            <p>No comment or replies on <a>@Model.Blog.title</a></p>
-        }
-        <p style="margin-top:20px"></p>
-        <div class="create-comment container">
-            @using (Html.BeginForm("Create", "Comments", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-            {
-                @Html.AntiForgeryToken()
-                // form elements go here
-                <input type="hidden" name="blog_id" value="@Model.Blog.id" id="blogId" />
-                <div class="form-group">
-                    <label for="">Your Name or Email</label>
-                    <input class="form-control btn-block" required name="created_by" id="" />
-                </div>
-                <div class="form-group">
-                    <label for="exampleTextarea">Your Comment or Reply</label>
-                    <textarea class="form-control btn-block" required name="description" id="exampleTextarea" rows="3"></textarea>
-                </div>
-                <div class="form-group">
-                    <div class="">
-                        <button type="submit" class="btn btn-primary">Submit Your Comment/Reply</button>
+                        @if (NewimageUrlsList.Any())
+                        {
+                            <div class="img-box2">
+                                @foreach (string url in NewimageUrlsList)
+                                {
+                                    <img class="" src="@url" alt="image" />
+                                }
+                            </div>
+                        }
                     </div>
                 </div>
-            }
+                <div class="col-md-8 container bg-light">
+                    <div class="new-row">
+                        <div class="container">
+                            <h1>@Model.Blog.title <div class="underline"></div></h1>
+                            <p>@Model.Blog.description</p>
+                            <p>By <a>#@Model.Blog.owner</a></p>
+
+                            <h3>Comments/Replies <div class="underline"></div></h3>
+                            @if (Model.Comments.Any())
+                            {
+                                <div>
+                                    @foreach (var comment in Model.Comments)
+                                    {
+                                        <div class="comment-box">
+                                            <p><a>#@comment.created_by</a></p>
+                                            <p>@comment.description</p>
+                                        </div>
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                <p>No comment or replies on <a>@Model.Blog.title</a></p>
+                            }
+                            <p style="margin-top:20px"></p>
+                            <div class="create-comment container">
+                                @using (Html.BeginForm("Create", "Comments", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    // form elements go here
+                                    <input type="hidden" name="blog_id" value="@Model.Blog.id" id="blogId" />
+                                    <div class="form-group">
+                                        <label for="">Your Name or Email</label>
+                                        <input class="form-control btn-block" required name="created_by" placeholder="Your name or email" id="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleTextarea">Your Comment or Reply</label>
+                                        <textarea class="form-control btn-block" required name="description" id="exampleTextarea" placeholder="Your comment or reply" rows="3"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="">
+                                            <button type="submit" class="btn btn-primary">Submit Your Comment/Reply</button>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-    </div>
+    </section>
 </body>
 </html>
 

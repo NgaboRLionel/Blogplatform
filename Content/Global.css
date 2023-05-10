@@ -1,0 +1,108 @@
+﻿body {
+    height:fit-content !important;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background: #0d6efd;
+}
+
+.comment-box {
+    background: #ffffff;
+    width:61%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    min-width: 60%;
+}
+
+.img-container {
+    margin-top: -29px;
+}
+
+.img-box {
+    display: flex;
+    width: 350px;
+    height: 200px;
+}
+
+    .img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .new-row {
+        min-height:fit-content !important;
+        padding:50px 0;
+    }
+.bg-light {
+    background: #EEEEEE;
+    border-radius: 15px;
+}
+.bg-light p {
+    width:60%;
+}
+.img-box2 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+}
+
+    .img-box2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+/*.jumbotron {
+            background:url("/Images/bunner.jpg");
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }*/
+
+@media screen and (max-width:600px) {
+    .img-box {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+
+    /*section {
+        padding-top: 100px;
+    }*/
+
+    .card-body .img-box {
+        width: 295px;
+        height: 250px;
+        margin-bottom: 0px;
+    }
+    .bg-light {
+        width:fit-content;
+        margin-top:100px;
+    }
+    .col-md-4 {
+        height:fit-content !important;
+        overflow:auto;
+    }
+    .col-md-8 {
+        height:fit-content !important;
+        margin-top:50px;
+    }
+    .bg-light p {
+        width: 100%;
+    }
+    .comment-box {
+        width: 90%;
+    }
+}

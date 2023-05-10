@@ -1,0 +1,12 @@
+﻿
+
+@media screen and (max-width:600px) {
+    /*section {
+        padding-top:100px;
+    }*/
+    .card-body .img-box {
+        width: 295px;
+        height: 250px;
+        margin-bottom: 0px;
+    }
+}
